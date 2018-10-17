@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myimg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="csv.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="capture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainCtl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mymath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="capture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mainCtl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myimg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mymath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

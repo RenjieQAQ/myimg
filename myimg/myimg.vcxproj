@@ -64,6 +64,7 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="opencv.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -115,6 +116,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="capture.cpp" />
+    <ClCompile Include="csv.cpp" />
+    <ClCompile Include="fix.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainCtl.cpp" />
+    <ClCompile Include="myimg.cpp" />
+    <ClCompile Include="mymath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="capture.h" />
+    <ClInclude Include="fix.h" />
+    <ClInclude Include="mainCtl.h" />
+    <ClInclude Include="MoneyCore.h" />
+    <ClInclude Include="myimg.h" />
+    <ClInclude Include="mymath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
